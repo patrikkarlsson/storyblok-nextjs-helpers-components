@@ -1,0 +1,11 @@
+{
+  "name": "menu_item",
+  "display_name": "MenuItem",
+  "schema": {
+  },
+  "image": null,
+  "is_root": true,
+  "is_nestable": false,
+  "real_name": "menuitem",
+  "component_group_uuid": null
+}
