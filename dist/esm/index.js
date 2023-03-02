@@ -1335,7 +1335,7 @@ class Section extends Component {
     super();
     this.element = styled.section.withConfig({
       displayName: "Section__element",
-      componentId: "sc-g45oxk-0"
+      componentId: "sc-4iomo1-0"
     })(["", ""], _ref => {
       var {
         theme,
@@ -1428,7 +1428,7 @@ let Row$1 = class Row extends Component {
     super();
     this.element = styled.div.withConfig({
       displayName: "Row__element",
-      componentId: "sc-1g83vyg-0"
+      componentId: "sc-19t7ddo-0"
     })(["", ""], _ref => {
       var {
         fullWidth
@@ -1457,7 +1457,7 @@ class Row extends Component {
     super();
     this.column = styled.div.withConfig({
       displayName: "Column__column",
-      componentId: "sc-n30fj2-0"
+      componentId: "sc-37y7z-0"
     })(["", ""], _ref => {
       var {
         spacing,
@@ -1479,7 +1479,7 @@ class Row extends Component {
       theme: theme,
       backgroundColor: blok.background_color.currentColor,
       spacing: blok.spacing,
-      className: classnamesExports(blok.style)
+      className: classnamesExports(blok.style, blok.visibility)
     }), this.props.children);
   }
 }
@@ -1489,7 +1489,7 @@ class Content extends Component {
     super();
     this.element = styled.div.withConfig({
       displayName: "Content__element",
-      componentId: "sc-1gvdvep-0"
+      componentId: "sc-1izd1nt-0"
     })(["", ""], _ref => {
       var {
         theme,
@@ -1524,7 +1524,7 @@ class Page extends Component {
     super();
     this.element = styled.main.withConfig({
       displayName: "Page__element",
-      componentId: "sc-o4zoo1-0"
+      componentId: "sc-90vphi-0"
     })(["", ""], () => Ae(["display:flex;width:100%;flex-direction:column;"]));
   }
   render() {
@@ -1544,7 +1544,7 @@ class PictureSource extends Component {
     super();
     this.element = styled.source.withConfig({
       displayName: "PictureSource__element",
-      componentId: "sc-8hzmzr-0"
+      componentId: "sc-mua2jr-0"
     })([""]);
   }
   render() {
@@ -1588,7 +1588,7 @@ class Picture extends Component {
     super();
     this.element = styled.picture.withConfig({
       displayName: "Picture__element",
-      componentId: "sc-oj8ygv-0"
+      componentId: "sc-1txjg1m-0"
     })(["display:flex;width:100%;img{height:auto;width:100%;}"]);
   }
   render() {
@@ -1616,7 +1616,7 @@ class Placeholder extends Component {
     super();
     this.element = styled.div.withConfig({
       displayName: "Placeholder__element",
-      componentId: "sc-1jvwiu5-0"
+      componentId: "sc-yof21b-0"
     })([""]);
   }
   render() {

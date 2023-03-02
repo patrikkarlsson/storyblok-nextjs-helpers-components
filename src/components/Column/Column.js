@@ -45,7 +45,7 @@ class Row extends Component {
     const Column = this.column
     const { theme, blok, storyblokEditable } = this.props
     return (
-      <Column {...storyblokEditable(blok)} key={blok._uid} theme={theme} backgroundColor={blok.background_color.currentColor} spacing={blok.spacing} className={cn(blok.style)}>
+      <Column {...storyblokEditable(blok)} key={blok._uid} theme={theme} backgroundColor={blok.background_color.currentColor} spacing={blok.spacing} className={cn(blok.style, blok.visibility)}>
         {this.props.children}
       </Column>
     )
