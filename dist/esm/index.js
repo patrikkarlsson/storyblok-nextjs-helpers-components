@@ -1559,7 +1559,7 @@ class PictureSource extends Component {
       switch (media) {
         case "mobile":
           var mobileMax = parseInt(theme.mq.tablet) * 16 - 1;
-          return "(min-width: ".concat(theme.mq.mobile, ") and (max-width: ").concat(mobileMax / 16, "rem)");
+          return "(max-width: ".concat(mobileMax / 16, "rem)");
         case "tablet":
           var tabletMax = parseInt(theme.mq.laptop) * 16 - 1;
           return "(min-width: ".concat(theme.mq.tablet, ") and (max-width: ").concat(tabletMax / 16, "rem)");

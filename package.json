@@ -1,6 +1,6 @@
 {
   "name": "storyblok-nextjs-helpers-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Storyblok helpers/component library for Next.js",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
