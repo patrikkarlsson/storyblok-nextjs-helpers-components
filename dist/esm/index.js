@@ -1352,7 +1352,9 @@ class Section extends Component {
       blok,
       storyblokEditable
     } = this.props;
+    var classnames = blok.classnames && blok.classnames.length > 0 ? blok.classnames.split(',').map(c => c.trim()) : [];
     return /*#__PURE__*/React.createElement(Section, _extends({}, storyblokEditable(blok), {
+      className: classnames,
       theme: theme,
       spacing: blok.spacing,
       backgroundColor: blok.background_color.currentColor

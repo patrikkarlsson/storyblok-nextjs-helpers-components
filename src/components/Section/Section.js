@@ -35,8 +35,9 @@ class Section extends Component {
   render() {
     const Section = this.element
     const { theme, blok, storyblokEditable } = this.props
+    const classnames = blok.classnames && blok.classnames.length > 0 ? blok.classnames.split(',').map(c => c.trim()) : []
     return (
-      <Section {...storyblokEditable(blok)} theme={theme} spacing={blok.spacing} backgroundColor={blok.background_color.currentColor}>
+      <Section {...storyblokEditable(blok)} className={classnames} theme={theme} spacing={blok.spacing} backgroundColor={blok.background_color.currentColor}>
         {this.props.children}
       </Section>
     )
